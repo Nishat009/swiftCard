@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="navbar px-10 max-w-7xl mx-auto">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="-1"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-lg font-medium text-indigo-600">
+                            <li><a>Home</a></li>
+                            <li><a>Products</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-3xl font-bold text-indigo-600">SwiftCart</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg font-medium text-indigo-600">
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a><i class="fa-solid fa-cart-shopping text-indigo-600 text-lg"></i></a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <!-- <div class=""> -->
+            <div class="h-[500px] bg-[url('./assets/banner-image.png')] bg-cover bg-center relative">
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/70 to-transparent"></div>
+                <div
+                    class="text-center lg:text-left px-10 py-40 grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
+
+                    <div class="relative z-10 ">
+                        <h1 class="text-5xl font-bold capitalize text-white">Best Collection for you</h1>
+                        <p class="py-6 text-lg text-white font-regular pr-10">Discover the latest trends in fashion,
+                            electronics, and more. Shop with confidence and
+                            style at SwiftCart.
+                            .</p>
+                        <button class="btn bg-indigo-600 text-white border-none shadow-none px-7">Shop Now</button>
+                    </div>
+                </div>
+                <!-- <img src="./Assets/banner-image.png" alt="Hero Image" class="w-full h-auto"> -->
+                <!-- </div> -->
+
+        </section>
+    </section>
+</body>
+
+</html>
