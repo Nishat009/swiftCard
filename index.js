@@ -7,9 +7,21 @@ let allProducts = [];
 const renderProducts = (products) => {
     productContainer.innerHTML = products.map(product => `
         <div class="card shadow rounded-md border border-gray-50">
-            <figure class="px-6 pt-6 bg-gray-100">
-                <img src=${product.image} alt="${product.title}" class="rounded-lg p-5 cursor-pointer object-cover h-56 transform transition-transform duration-300 hover:scale-105" />
-            </figure>
+            <div class="px-6 pt-6 bg-gray-100 m-auto"> 
+                <div class=" hover-3d">
+                    <figure class="pl-5">
+                        <img src=${product.image} alt="${product.title}" class="rounded-lg p-5 cursor-pointer object-cover h-56" />
+                    </figure>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+        </div>           
             <div class="card-body border-0 pt-4">
                 <div class="flex items-center justify-between">
                     <span class="badge badge-soft badge-primary text-xs px-3 py-2">${product.category}</span>
