@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
 </head>
 
 <body>
@@ -144,12 +144,17 @@
                         <i class="fa-brands fa-linkedin-in hover:text-white cursor-pointer"></i>
                         <i class="fa-regular fa-envelope hover:text-white cursor-pointer"></i>
                     </div>
-
                 </div>
-
             </div>
         </footer>
+        <!-- modal -->
 
+        <dialog id="product-modal" class="modal !min-w-[450px] p-0">
+            <div class="modal-box relative p-6 !min-w-[450px]">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onclick="closeModal()">✕</button>
+                <div id="modal-content"></div>
+            </div>
+        </dialog>
     </section>
     <script src="./index.js"></script>
 </body>

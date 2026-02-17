@@ -14,3 +14,19 @@ body {
     color: white !important;
     border: none !important;
 }
+.modal-img {
+  transform-style: preserve-3d; /* enable 3D transforms */
+  perspective: 1000px;          /* give depth */
+  cursor: pointer;
+}
+
+/* 3D tilt + zoom on hover */
+.modal-img:hover {
+  transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+  transition: transform 0.5s ease;
+}
+
+/* Optional: smooth reset when hover ends */
+.modal-img {
+  transition: transform 0.5s ease;
+}
